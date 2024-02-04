@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(74, 74, 74);
+}
+
+.template {
+  width: 90%;
+  max-width: 420px;
+  background: linear-gradient(135deg, #1a1a1a, #565656);
+  color: antiquewhite;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: rgb(rgb(255, 0, 0));
+}
+
+.searchbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbox input {
+  border: 0;
+  outline: 0;
+  background: #d2d2d8;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.searchbox button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 13px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: #3d3d3d;
+}
+
+.weather-img {
+  height: 140px;
+  width: 170px;
+  margin: 30px auto;
+}
+
+.image {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#description h3{
+
+  font-size: 23px;
+  color: rgb(7, 123, 123);
+}
+
+.temp-text h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.temp-text h1 {
+  font-size: 65px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.temp-text h2 {
+  font-size: 40px;
+}
+
+.report-pannel {
+  height: 160px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.humidity i,
+.wind-speed i {
+  font-size: 35px;
+  color: #97a0ae;
+}
+
+.humidity,
+.wind-speed {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text1,
+.text2 {
+  margin-left: 10px;
+  text-align: left;
+}
+
+.text1 h3,
+.text2 h3 {
+  font-size: 25px;
+  color: #c1cee3;
+  font-weight: bold;
+}
+
+.text1 h2,
+.text2 h2 {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #97a0ae;
+}
